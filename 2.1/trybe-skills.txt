@@ -2,3 +2,7 @@ O que eu vou aprender na trybe:
 Unix
 Bash
 GitGithub
+HTML
+CSS
+Javascript
+React
