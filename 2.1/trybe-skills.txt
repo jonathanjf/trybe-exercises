@@ -4,3 +4,6 @@ Bash
 GitGithub
 HTML
 CSS
+CSS
+Javascript
+React
