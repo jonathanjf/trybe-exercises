@@ -1,7 +1,6 @@
 O que eu vou aprender na trybe:
-
 Unix
 Bash
-GitGit
+GitGithub
 HTML
 CSS
