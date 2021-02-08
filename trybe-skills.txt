@@ -1,0 +1,8 @@
+O que vamos aprender na trybe:
+Unix
+Bash
+GitGithub
+HTML
+CSS
+JAVASCRIPT
+REACT
