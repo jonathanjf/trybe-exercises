@@ -1,0 +1,40 @@
+h1 {
+    font-family: sans-serif;
+    color: whitesmoke;
+    text-align: center;
+}
+p {
+    font-weight: 600;
+    text-decoration:underline;
+    text-decoration-color: black;
+    line-height: 100px;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 3em;
+}
+body {
+    background-color: grey;
+    font-size: 16px;
+}
+li {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+#amarelo {
+    background: rgb(185, 185, 6);
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+}
+#vermelho {
+    background-color: rgb(199, 32, 32);
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+}
+#marrom {
+    background-color: rgba(141, 38, 38, 0.842);
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+}
