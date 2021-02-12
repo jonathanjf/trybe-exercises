@@ -1,0 +1,34 @@
+.mario {
+    width: 180px;
+    left: 100px;
+    position: absolute;
+}
+
+.gomba {
+    width: 150px;
+    top: 380px;
+    position: absolute;
+    left: 100px;
+}
+
+.bowser {
+    width: 200px;
+    left: 500px;
+    position: absolute;
+    top: 100px;
+}
+
+.balao {
+    width: 100px;
+    position: absolute;
+    left: 400px;
+    top: 100px;
+}
+
+.word {
+    position: absolute;
+    left: 410px;
+    z-index: 1;
+    width: 90px;
+    top: 90px;
+}
