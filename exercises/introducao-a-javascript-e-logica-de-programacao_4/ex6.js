@@ -1,8 +1,5 @@
-let palavra = 'ama';
-let palavra2 = 0;
-let palavrainv = 0;
-
 function verificaPalindromo(palavra){
+  
   let palavra2 = 0;
   let palavrainv = 0;
   
@@ -19,3 +16,5 @@ function verificaPalindromo(palavra){
   console.log('false');    
   }
 }  
+
+console.log(verificaPalindromo('arara'));
