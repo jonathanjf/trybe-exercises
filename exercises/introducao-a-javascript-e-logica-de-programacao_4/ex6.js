@@ -3,6 +3,9 @@ let palavra2 = 0;
 let palavrainv = 0;
 
 function verificaPalindromo(palavra){
+  let palavra2 = 0;
+  let palavrainv = 0;
+  
   for(i = 0; i < palavra.length; i += 1){
   palavra2 = (palavra[i]);
   }
