@@ -8,6 +8,10 @@ html {
     display: flex;
 }  
 
+.menu-items-father {
+    display: flex;
+}
+
 @media screen and (max-width: 375px){
     body {
         
@@ -51,3 +55,59 @@ html {
     }
 } 
 
+@media screen and (max-width: 1000px) and (min-width:376px){
+    body {
+        font-size: 30px;
+    }
+    .title {
+        text-align: center;
+        font-size: 45px;
+        font-weight: bolder;
+    }
+    .container {
+        flex-direction: column;
+
+    }
+    .menu-items-father {
+        margin-top: 40px;
+        justify-content: space-around;
+        list-style: none;
+        
+    }
+
+    .aside-one {
+        font-size: 20px;
+        text-align: center;
+        font-weight: 700;
+        
+    }
+    .aside-one li{
+        list-style: none;
+    }
+    .aside-two {
+        margin: 15px;
+        font-size: 25px;
+    }
+    .aside-two li {
+        list-style: none;
+    }
+    .aside-two h2 {
+        margin-left: 40px;
+    }
+    .main-content {
+        margin: 30px;
+
+    }
+    .main-content h1 {
+        text-align: center;
+    }
+    .footer-content {
+        margin: 20px;
+    }
+    .footer-content p {
+        font-size: 20px;
+    }
+    nav {
+        display: none;
+    }
+}
