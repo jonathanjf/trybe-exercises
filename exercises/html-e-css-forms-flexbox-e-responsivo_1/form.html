@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms aula 1</title>
+
+</head>
+
+<body>
+    <h1>Formulário</h1>
+
+    <form action="" method="GET" id="formDados">
+        <h2>Dados pessoais</h2>
+        <fieldset>
+            <label for="name">Nome<input type="text" placeholder="Digite seu nome aqui" name="" id="name" required
+                    maxlength="40">
+            </label><br>
+
+            <label for="email">Email<input type="email" placeholder="Digite seu E-mail aqui" name="" id="email" required
+                    maxlength="50">
+            </label><br>
+
+            <label for="cpf">CPF<input type="number" placeholder="Digite seu cpf aqui" name="" id="cpf" required
+                    maxlength="11">
+            </label><br>
+
+            <label for="city">Cidade<input type="text" placeholder="Digite sua cidade aqui" name="" id="city" required
+                    maxlength="28"></label> <br>
+
+            <label for="states">Selecione seu estado<select name="estados" id="states" value="estados"
+                    required></select>
+            </label><br>
+
+            <label for="residencia" required>Escolha uma opção
+                <input type="radio" name="resid" id="residencia">Casa
+            </label>
+
+            <label for="apartamento">
+                <input type="radio" name="resid" id="apartamento">Apartamento
+            </label>
+        </fieldset>
+        <h2>Dados do seu ultimo emprego</h2>
+        <fieldset>
+            <label for="resume">
+                <textarea name="" placeholder="Digite aqui o resumo de seu curriculo" id="resumo" cols="30" rows="10"
+                    maxlength="1000"></textarea>
+            </label><br>
+            <label for="cargo">Cargo
+                <input type="text" placeholder="Digite aqui seu ultimo cargo" name="" id="cargo" required>
+            </label><br>
+            <label for="cargoDescription">Descreva seu ultimo cargo
+                <input type="text" name="" id="cargoDescription" maxlength="500" required><br>
+            </label>
+            <label for="data">Data</label>
+            <input type="text" placeholder="Digite o dia" name="day" id="day" maxlength="2" required>
+            <label for="month">/</label>
+            <input type="text" placeholder="Digite o mês" name="month" id="month" maxlength="2" required>
+            <label for="year">/</label>
+            <input type="text" placeholder="Digite aqui o ano" name="year" id="year" maxlength="4" required>
+        </fieldset>
+        <button type="submit" id="functionsFormsButton">Interromper</button>
+    </form>
+    <div class="infosConsolidadas"></div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
