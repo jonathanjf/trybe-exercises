@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+.container {
+    display: flex;
+}  
+
+@media screen and (max-width: 375px){
+    body {
+        
+        font-size: 20px;
+    }
+    .title{
+        text-align: center;
+        font-weight: bolder;
+    }
+    .container {
+        flex-direction: column;
+    }
+
+    .aside-one{
+        font-size: 15px;
+    }
+
+    .aside-two{
+        font-size: 15px;
+    }
+    body h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    body h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    nav {
+        display: none;
+    }    
+    .main-content {
+        margin: 15px;
+    }
+    .footer-content {
+        margin: 30px;
+        font-size: 15px;
+    }
+    .footer-content h3 {
+        text-align: center;
+    }
+} 
+
