@@ -11,6 +11,9 @@ html {
 .menu-items-father {
     display: flex;
 }
+.asides-container{
+    display: flex;
+}
 
 @media screen and (max-width: 375px){
     body {
@@ -109,5 +112,71 @@ html {
     }
     nav {
         display: none;
+    }
+}
+
+@media screen and (min-width:1001px){
+    .container{
+        flex-direction: column;
+    }
+    body {
+        font-size: 20px;
+    }
+    .title {
+        text-align: center;
+        font-size: 45px;
+        font-weight: bolder;
+        margin-bottom: 50px;
+    }
+    nav {
+        display: none;
+    }
+    .asides-container{
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 100px;
+    }
+    .aside-one li{
+        list-style: none;
+        font-size: medium;
+
+    }
+    .aside-two li{
+        list-style: none;
+        font-size: medium;
+    }
+    .aside-one h2 {
+        font-size: larger;
+        margin-left: 100px;
+    }
+    .aside-two h2 {
+        font-size: larger;
+        margin-left: 100px;
+    }
+    .main-content h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+    .main-content {
+        margin: 100px;
+        font-size: 15px;
+    }
+    .footer-content {
+        font-size: 15px;
+        font-weight: small;
+        margin-bottom: 50px;
+    }
+    .footer-content h3 {
+     text-align: center;
+    }
+    .footer-content p {
+        margin-left: 100px;
+        margin-right: 100px;
+        
+    }
+    .p1 {
+        text-align: center; 
     }
 }
