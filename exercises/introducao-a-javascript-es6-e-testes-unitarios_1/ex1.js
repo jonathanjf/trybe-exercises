@@ -12,7 +12,6 @@ const testingScope = (escopo) => {
 }
 
 testingScope(true);
-
 // Exercício dois parte um
 
 const oddsAndEvens = [13, 3, 4, 10, 7, 2];
