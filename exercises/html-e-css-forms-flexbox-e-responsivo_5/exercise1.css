@@ -1,0 +1,66 @@
+body {
+
+}
+
+h1 {
+
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+.figures-container {
+
+}
+
+@media screen and (max-width: 375px){
+    body {
+    background-color: rgb(44, 175, 236);
+    }
+    body p {
+        font-size: 20px;
+    }
+    body h1 {
+        font-size: 25px;
+    }
+
+    figure {
+        margin: 10px 10px;
+    }
+}
+@media screen and (min-width: 800px){
+    body {
+        background-color: rgb(78, 179, 226);
+        margin: 30px;
+    }
+    body p {
+        font-size: 20px;
+    }
+    figure {
+        width: 40%;
+        
+    }
+    .figures-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    body {
+        background-color: rgb(137, 208, 241);
+        margin: 50px;
+        max-width: 1000px;
+    }
+    body p {
+        font-size: 15px;
+    }
+}

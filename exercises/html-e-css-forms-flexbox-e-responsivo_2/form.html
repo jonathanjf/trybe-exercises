@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Pikaday-master/css/pikaday.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Forms aula 1</title>
+
+</head>
+
+<body>
+    <h1 class="">Formulário</h1>
+
+    <form action="" method="GET" id="formDados">
+
+        <h2>Dados pessoais</h2>
+
+        <fieldset>
+            <div class="mb-3">
+                <label for="name" class="form-label">Nome
+                    <input class="form-control" type="text" placeholder="Digite seu nome aqui" name=""
+                        id="name" maxlength="40" data-validate="required,name">
+                </label>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email
+                    <input class="form-control" type="email" placeholder="Digite seu E-mail aqui" name=""
+                        id="email" maxlength="50" data-validate="required,email">
+                </label>
+            </div>
+            <div class="mb-3">
+                <label for="cpf" class="form-label">CPF
+                    <input class="form-control" type="text" placeholder="Digite seu cpf aqui" name="" id="cpf"
+                        maxlength="11" data-validate="required,cpf">
+                </label>
+            </div>
+            <div class="mb-3">
+                <label for="city" class="form-label">Cidade
+                    <input class="form-control" type="text" placeholder="Digite sua cidade aqui" name=""
+                        id="city" maxlength="28" data-validate="required,city"></label>
+            </div>
+            <div class="mb-3">
+                <label for="states" class="form-label">Selecione seu Estado
+                    <select class="form-control" name="estados" id="states" value="estados"></select>
+                </label>
+            </div>
+            <div class="mb-3">
+                <label for="residencia" class="form-check-label">Escolha uma opção<br>
+                    <input type="radio" class="form-check-input" name="resid" id="residencia">Casa
+                </label>
+            </div>
+            <div class="mb-3">
+                <label for="apartamento" class="form-check-label">
+                    <input type="radio" class="form-check-input" name="resid" id="apartamento">Apartamento
+                </label>
+            </div>
+        </fieldset>
+
+        <h2>Dados do seu ultimo emprego</h2>
+
+        <fieldset>
+            <div class="mb-3">
+                <label for="resume" class="form-label">
+                    <textarea name="" class="form-control" placeholder="Digite aqui o resumo de seu curriculo"
+                        id="resumo" cols="30" rows="10" maxlength="1000"></textarea>
+                </label>
+            </div>
+            <div class="mb-3">
+                <label for="cargo" class="form-label">Cargo
+                    <input type="text" class="form-control" placeholder="Digite aqui seu ultimo cargo" name=""
+                        id="cargo">
+                </label>
+            </div>
+            <div class="mb-3">
+                <label for="cargoDescription" class="form-label">Descreva seu ultimo cargo
+                    <input type="text" class="form-control" name="" id="cargoDescription" maxlength="500"><br>
+                </label>
+            </div>
+            <div class="mb-3">
+                <label for="pikaDay" class="form-label">Selecione a data
+                    <input type="text" class="form-control" name="dataCampo" id="pikaDay">
+                </label>
+            </div>
+        </fieldset>
+        <button type="submit" class="btn btn-primary" id="submitButton">SUBMIT</button>
+        <button type="reset" class="btn btn-primary" id="resetButton">RESET</button>
+    </form>
+    <div class="infosConsolidadas"></div>
+
+
+    
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="popup-validation-master/bin/validation.es6.js"></script>
+    <script src="bootstrap-5.0.0-beta2-dist/js/bootstrap.min.js"></script>
+    <script src="Pikaday-master/pikaday.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
