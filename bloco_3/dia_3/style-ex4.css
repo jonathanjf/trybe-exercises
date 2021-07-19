@@ -1,0 +1,35 @@
+.div:hover{
+border-style: solid;
+}
+#primaria {
+    background-color: blue;
+}
+#secundaria {
+    background-color: rgb(177, 177, 21);
+}
+#complementar {
+    background-color: tomato;
+    height: 2em;
+    
+}
+#escura {
+    background-color: rgb(121, 32, 32);
+}
+#clara {
+    background: springgreen;
+}
+#prih {
+font-style: italic;
+}
+#sech {
+font-weight: bold;
+}
+#comh {
+    font-style: italic;
+}
+#esch {
+color: linen;
+}
+#clah {
+    font-style: italic;
+}
